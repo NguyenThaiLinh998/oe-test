@@ -1,0 +1,177 @@
+.title-store
+{
+	color: #fff;
+}
+p
+{
+  margin: 0;
+}
+.menu-left
+{
+	background: #0c1152;
+	text-align: center;
+	padding-top: 4%;
+	/*height: 600px;*/
+	padding-bottom: 26%;
+	width: 20%;
+}
+.menu-left ul
+{
+	padding: 0px
+}
+.menu-left ul li 
+{
+	list-style-type: none;
+	padding-top: 20px;
+}
+.menu-left ul li a
+{
+	color: #9d9db7;
+    font-size: 15px;
+
+}
+.menu-left ul li a:hover
+{
+	color: #fff;
+	text-decoration: none;
+}
+.menu-left ul li a:focus
+{
+	color: #fff;
+	background: #0b1151;
+}
+.menu-left .title-store
+{
+	color: #fff;
+}
+
+/*right content*/
+
+.content-right
+{
+	background: #e4e4eb;
+	padding:0 5%;
+	padding-bottom: 30%;
+	width: 80%;
+}
+.title-right-content
+{
+	text-align: center;
+    color: #0c1152;
+}
+.inline-sort-by .sort-by
+{
+	display: inline-block;
+	color: #0c1152;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.inline-sort-by .select-option
+{
+	display: inline-block;
+}
+.button-fillter .btn-fillter
+{
+	background-color: #0b1151;
+	border-color: #0b1151;
+	padding: 8px 30px;
+}
+
+/*sort*/
+#sort
+{
+	border: 2px solid #0b1151;
+}
+
+/*checkbox*/
+.content-fillter
+{
+   color: #3f4157;
+   background: #fff;
+   padding: 15px 0px 15px 20px;
+   margin-top: 10%;
+}
+.check-radio-topping
+{
+	width: 30%;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+input{display: none;}
+
+input+label
+{
+  font-size: 15px;
+  cursor: pointer;
+  padding-left: 28px;
+  position: relative;
+  font-weight: unset;
+}
+
+input:checked+label
+{
+  color: #0b1151;
+  font-weight: bolder;
+}
+
+label:before
+{
+  content: "";
+  top: 4px;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  background: #0b1151;
+  transition: all 0.3s ease;
+  box-shadow: inset 0 0 0 18px #E0E0E0;
+}
+
+input:checked + label:before{
+  border: 1px solid #0b1151;
+  box-shadow: inset 0 0 0 4px #fff;
+}
+
+
+/*product*/
+.product-wrapper
+{
+	clear: both;
+}
+.product
+{
+	margin-top: 10%;
+	border-radius: 3px;
+    background: #fff;
+    height: 30%;
+    margin-right: 20px;
+    width: 30%;
+    margin-right: 3.33333333%;
+}
+.product-content .price
+{
+	float: right;
+    font-size: 18px;
+    font-weight: 500;
+    color: #0b1151;
+    margin-top: 25%;
+    margin-bottom: 8%;
+
+}
+.product .product-title
+{
+	color: #0b1151;
+	padding-top: 20px;
+	margin-bottom: 15px;
+}
+.product .product-content
+{
+	margin-top:5%; 
+}
+.underlined
+{
+	height: 2px;
+	background: #0b1151;
+}
